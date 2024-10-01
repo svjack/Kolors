@@ -46,7 +46,7 @@ git clone https://huggingface.co/Kwai-Kolors/Kolors-IP-Adapter-Plus
 
 ### start gradio 
 ```bash
-python swtich_app_multi_output.py
+python switch_app_multi_download.py
 ```
 
 ## Contents
