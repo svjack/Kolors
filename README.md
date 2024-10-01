@@ -27,6 +27,28 @@
 </figure>
 <br><br>
 
+## ControlNet + IP_Adapter_Plus Gradio Usage
+
+```bash
+sudo apt-get update && sudo apt-get install git-lfs
+git clone https://huggingface.co/spaces/svjack/Kolors-Controlnet_and_IPA
+cd Kolors-Controlnet_and_IPA && pip install -r requirements.txt
+```
+
+### may require 
+```bash
+git clone https://huggingface.co/Kwai-Kolors/Kolors
+git clone https://huggingface.co/Kwai-Kolors/Kolors-ControlNet-Depth
+git clone https://huggingface.co/Kwai-Kolors/Kolors-ControlNet-Canny
+git clone https://huggingface.co/Kwai-Kolors/Kolors-ControlNet-Pose
+git clone https://huggingface.co/Kwai-Kolors/Kolors-IP-Adapter-Plus
+```
+
+### start gradio 
+```bash
+python switch_app.py
+```
+
 ## Contents
 
 - [🎉 News](#News)
